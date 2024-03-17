@@ -1,0 +1,246 @@
+* {
+  background-color: #d8dfe8;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.logo {
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 10%;
+}
+main {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.text-area {
+  padding-top: 60px;
+  background-image: url(img/Imagen\ de\ WhatsApp\ 2024-02-29\ a\ las\ 15.08.50_1e4e99d0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  border: none;
+  margin-top: 10px;
+  text-transform: lowercase;
+  width: 700px;
+  height: 283px;
+  color: gainsboro;
+  font-size: 0.5rem;
+  resize: none;
+  margin: 10px auto;
+}
+
+::placeholder {
+  color: gainsboro;
+  font-size: 24px;
+}
+.text-area:focus {
+  outline: none;
+}
+.mensaje {
+  background-image: url(img/Muñeco.png);
+  background-size: auto;
+  background-position: 1px;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: transparent;
+  margin-left: 40px;
+  margin-top: 15px;
+  padding-left: 10px;
+  position: absolute;
+  height: 450px;
+  resize: none;
+  border: none;
+}
+.mensaje:hover {
+  color: #d8dfe8;
+  background-image: url(img/Imagen\ de\ WhatsApp\ 2024-02-29\ a\ las\ 15.08.50_af45aec9.jpg);
+  opacity: 100%;
+  cursor: url(img/Search.png), auto;
+  border-color: 2px solid greenyellow;
+}
+
+.mensaje:focus {
+  outline: none;
+}
+
+.botones {
+  display: flex;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.btn-desencriptar {
+  background-color: #d8dfe8;
+  border: 2px solid greenyellow;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+}
+.btn-desencriptar:hover {
+  border-color: #0a3871;
+}
+.btn-desencriptar:active {
+  background-color: #495057;
+  color: #d8dfe8;
+  transition-duration: 0.9s;
+  font-size: 30px;
+}
+.btn-encriptar {
+  background-color: #0a3871;
+  border: 2px solid greenyellow;
+  border-radius: 24px;
+  cursor: pointer;
+  color: white;
+  height: 67px;
+  width: 328px;
+}
+.btn-encriptar:hover {
+  border: goldenrod;
+}
+.btn-encriptar:active {
+  background-color: #495057;
+  font-size: 30px;
+}
+.copiar {
+  background-color: #0a3871;
+  border: 2px solid greenyellow;
+  border-radius: 24px;
+  color: #d8dfe8;
+  cursor: pointer;
+  margin-left: 67px;
+  margin-top: 402px;
+  padding-bottom: 5px;
+  height: 67px;
+  width: 328px;
+  position: absolute;
+  text-align: center;
+}
+.copiar:hover {
+  background-color: #0a3871;
+  color: white;
+  transition-duration: 0.9s;
+}
+.copiar:active {
+  transition-duration: 0.9s;
+  background-color: aliceblue;
+  font-size: 26px;
+}
+.info {
+  font-size: 18px;
+}
+.informacion {
+  color: #495057;
+  font-size: 24px;
+}
+/* Cambiar el color del texto del enlace de navegación */
+.navbar a {
+  color: #ffffff;
+}
+
+/* Cambiar el color de fondo del área de navegación */
+.navbar {
+  background-color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  /* Estilos para pantallas pequeñas */
+  main {
+    display: inline-block;
+  }
+  .logo {
+    width: 15%;
+  }
+  .info {
+    width: 100%;
+  }
+  .text-area {
+    text-align: center;
+    width: 85%;
+    margin: 5px auto;
+    font-size: 32px;
+  }
+  .botones {
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    display: block;
+    margin: 5px auto;
+  }
+  .btn-encriptar,
+  .btn-desencriptar {
+    margin-top: 5px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .text-area ::placeholder {
+    font-size: 34px;
+  }
+  .btnCopiar button {
+    align-items: center;
+    width: 236px;
+    height: 67px;
+    display: inline-block;
+    margin: 0px auto;
+    margin-left: 66px;
+    padding: 1px auto;
+  }
+
+  .mensaje {
+    background-image: url(img/Muñeco.png);
+    background-size: contain;
+    background-position: 1px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: transparent;
+    margin-top: 20px;
+    position: absolute;
+    resize: none;
+    border: none;
+    width: 335px;
+    height: 365px;
+
+    margin: 75px auto;
+  }
+  .mensaje:hover {
+    color: #d8dfe8;
+    background-image: url(img/Imagen\ de\ WhatsApp\ 2024-02-29\ a\ las\ 15.08.50_af45aec9.jpg);
+    background-size: cover;
+    opacity: 100%;
+    cursor: url(img/Search.png), auto;
+    border-color: 2px solid greenyellow;
+    width: 335px;
+    height: 365px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 32px;
+    margin: 75px auto;
+  }
+
+  .mensaje:focus {
+    outline: none;
+  }
+  /* Cambiar el color del texto del enlace de navegación */
+  .navbar a {
+    color: #ffffff;
+  }
+
+  /* Cambiar el color de fondo del área de navegación */
+  .navbar {
+    background-color: #0a3871;
+  }
+}
