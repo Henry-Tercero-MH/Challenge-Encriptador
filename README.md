@@ -1,6 +1,6 @@
 <h1 align="center">Challenge-Encriptador</h1>
 
-![Diseño Visual de la Aplicación](img\CapturaPantallaDiseño.jpg)
+![Diseño Visual de la Aplicación](img/CapturaPantallaDiseño.jpg)
 
 Este proyecto es una aplicación web diseñada para encriptar y desencriptar cadenas de texto ingresadas por el usuario. La aplicación utiliza un algoritmo de encriptación personalizado para cifrar la cadena de entrada y proporciona la capacidad de revertir el proceso para obtener la cadena original.
 
